@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return 'hello';
 });
+
+Route::get('/sun', function () {
+    return '<h1 style="color: #ff2200; font-size:72px"><marquee>*</marquee><h1>';
+});
